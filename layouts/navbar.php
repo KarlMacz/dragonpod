@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow">
-  <a href="./" class="navbar-brand"><img src="../assets/img/logo.png" class="d-inline-block align-top" style="height: 36px;"> <?php echo config('app.name'); ?></a>
+  <a href="./" class="navbar-brand"><img src="assets/img/logo.png" class="d-inline-block align-top" style="height: 36px;"> <?php echo config('app.name'); ?></a>
   <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menu">
     <span class="navbar-toggler-icon"></span>
   </button>
