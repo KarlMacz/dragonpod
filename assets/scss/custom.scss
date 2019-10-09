@@ -127,8 +127,7 @@ html.full-height {
 
     &::-webkit-scrollbar-thumb {
       background-color: $white;
-      height: 8px;
-      width: 8px;
+      border: 2px solid;
     }
 
     .bs-dashboard-sidebar-header {
