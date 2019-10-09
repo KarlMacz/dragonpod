@@ -6,7 +6,7 @@
   <div id="navbar-menu" class="collapse navbar-collapse">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a href="./" class="nav-link">Start Booking</a>
+        <a href="./" class="nav-link">Book Now</a>
       </li>
       <li class="nav-item dropdown">
         <a href="#" id="navbarDropdownMenuLink" class="nav-link dropdown-toggle" data-toggle="dropdown">Reservation</a>
