@@ -88,9 +88,79 @@ html.full-height > body {
 
 .bs-dashboard {
   display: flex;
+  flex-direction: row;
   position: relative;
   height: 100%;
   width: 100%;
+}
+.bs-dashboard > .bs-dashboard-sidebar {
+  background-color: #fff;
+  box-shadow: 0.5rem 0 1rem rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  overflow: auto;
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  width: 300px;
+}
+.bs-dashboard > .bs-dashboard-sidebar::-webkit-scrollbar {
+  background-color: #e75a24;
+  height: 10px;
+  width: 10px;
+}
+.bs-dashboard > .bs-dashboard-sidebar::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border: 2px solid;
+}
+.bs-dashboard > .bs-dashboard-sidebar .bs-dashboard-sidebar-header {
+  align-items: center;
+  color: #6c757d;
+  font-weight: bold;
+  display: flex;
+  text-transform: uppercase;
+  padding: 1rem;
+  margin: 1rem 0 0 0;
+}
+.bs-dashboard > .bs-dashboard-sidebar .bs-dashboard-sidebar-header::before {
+  border: 1px dashed #adb5bd;
+  content: "";
+  display: inline-block;
+  flex: 1;
+  margin-right: 1rem;
+  height: 2px;
+  box-sizing: border-box;
+}
+.bs-dashboard > .bs-dashboard-sidebar .bs-dashboard-sidebar-header::after {
+  border: 1px dashed #adb5bd;
+  content: "";
+  display: inline-block;
+  flex: 1;
+  margin-left: 1rem;
+  height: 2px;
+  box-sizing: border-box;
+}
+.bs-dashboard > .bs-dashboard-sidebar > .nav.nav-pills .nav-link {
+  border-radius: 0;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  padding: 1rem;
+}
+.bs-dashboard > .bs-dashboard-content {
+  background-color: #e9ecef;
+  display: inline-flex;
+  flex: 1;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+}
+.bs-dashboard > .bs-dashboard-content > .bs-dashboard-content-inner {
+  display: inline-block;
+  flex: 1;
+  overflow: auto;
+  position: relative;
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 /*# sourceMappingURL=custom.css.map */
