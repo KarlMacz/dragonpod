@@ -84,12 +84,18 @@
     <div class="bs-dashboard-content-inner">
       <div class="card mb-2">
         <div class="card-body">
-          <h1 class="my-0">Rooms</h1>
+          <h1 class="my-0">
+            <span>Rooms</span>
+            <button type="button" class="btn btn-primary btn-lg float-right">
+              <span class="fas fa-plus fa-fw mr-2"></span>
+              <span>Add Room Type</span>
+            </button>
+          </h1>
         </div>
       </div>
       <div class="card mb-2">
         <div class="card-body">
-          <table class="table table-bordered table-striped">
+          <table class="datatable table table-bordered table-striped">
             <thead>
               <tr>
                 <th>Name</th>
@@ -98,12 +104,27 @@
                 <th></th>
               </tr>
             </thead>
+            <tbody></tbody>
           </table>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+<?php
+  include_once('layouts/shared_modals.php');
+?>
+
+<script>
+  $(document).ready(function() {
+    $('.datatable').DataTable({
+      'columnDefs': [
+        {'targets': [3], 'orderable': false}
+      ]
+    });
+  });
+</script>
 
 <?php
   include_once('layouts/footer.php');
