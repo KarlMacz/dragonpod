@@ -75,7 +75,7 @@
             <a href="#" id="navbarDropdownMenuLink" class="nav-link dropdown-toggle" data-toggle="dropdown"><?php echo Auth::user()->full_name; ?></a>
             <div class="dropdown-menu">
               <a href="change_password.php" class="dropdown-item">Change Password</a>
-              <a href="logout.php" class="dropdown-item">Log Out</a>
+              <a href="../logout.php" class="dropdown-item">Log Out</a>
             </div>
           </li>
         </ul>
