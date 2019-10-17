@@ -15,7 +15,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title><?php echo config('app.name'); ?></title>
-  <link rel="shortcut icon" href="assets/img/logo.png">
+  <link rel="shortcut icon" href="assets/images/logo.png">
   <!-- CSS Files -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/custom.min.css">

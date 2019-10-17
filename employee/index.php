@@ -68,7 +68,7 @@
   </div>
   <div class="bs-dashboard-content">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
-      <a href="./" class="navbar-brand"><img src="../assets/img/logo.png" class="d-inline-block align-top" style="height: 36px;"> <?php echo config('app.name'); ?></a>
+      <a href="./" class="navbar-brand"><img src="../assets/images/logo.png" class="d-inline-block align-top" style="height: 36px;"> <?php echo config('app.name'); ?></a>
       <div id="navbar-menu" class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item dropdown">
