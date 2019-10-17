@@ -87,5 +87,6 @@
 </div>
 
 <?php
+  include_once('layouts/shared_modals.php');
   include_once('layouts/footer.php');
 ?>
