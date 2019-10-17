@@ -14,6 +14,7 @@
   <link rel="shortcut icon" href="../assets/images/logo.png">
   <!-- CSS Files -->
   <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/dataTables.bootstrap4.min.css">
   <link rel="stylesheet" href="../assets/css/custom.min.css">
   <!-- FontAwesome -->
   <script src="../assets/js/all.min.js"></script>
@@ -21,6 +22,8 @@
   <script src="../assets/js/typed.min.js"></script>
   <!-- JS Files -->
   <script src="../assets/js/jquery-3.4.1.min.js"></script>
+  <script src="../assets/js/jquery.dataTables.min.js"></script>
+  <script src="../assets/js/dataTables.bootstrap4.min.js"></script>
   <script src="../assets/js/bootstrap.min.js"></script>
   <script src="../assets/js/script.js"></script>
 </head>
